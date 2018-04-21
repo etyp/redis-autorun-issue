@@ -1,0 +1,15 @@
+<head>
+  <title>redis-autorun-issue</title>
+</head>
+
+<body>
+  <h1>Redis oplog + SS autorun issue</h1>
+  {{> main}}
+</body>
+
+<template name="main">
+  <button class="js-toggle">Toggle deleted</button>
+  {{#each items}}
+    {{this._id}} - {{this.text}}
+  {{/each}}
+</template>
