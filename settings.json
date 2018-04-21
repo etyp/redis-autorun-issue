@@ -9,7 +9,7 @@
         "optimistic": true,
         "pushToRedis": true
     },
-    "debug": false,
+    "debug": true,
     "overridePublishFunction": true
   }
 }
